@@ -115,7 +115,7 @@
         android:id="@+id/counterLikes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/indent8"
+        android:layout_marginStart="@dimen/indent8"
         app:layout_constraintBottom_toBottomOf="@id/like"
         app:layout_constraintEnd_toStartOf="@id/share"
         app:layout_constraintStart_toEndOf="@id/like"
@@ -126,7 +126,7 @@
         android:id="@+id/counterShare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/indent8"
+        android:layout_marginStart="@dimen/indent8"
         app:layout_constraintBottom_toBottomOf="@id/share"
         app:layout_constraintStart_toEndOf="@id/share"
         app:layout_constraintTop_toTopOf="@id/share"
@@ -136,10 +136,9 @@
         android:id="@+id/counterEye"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/indent"
         app:layout_constraintBottom_toBottomOf="@id/eye"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/eye"
-        tools:text="6778" />
+        tools:text="@sample/posts.json/data/counterEye" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
